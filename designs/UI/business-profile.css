@@ -3,3 +3,22 @@ form{
 	text-align: center;
 	margin: auto;
 }
+
+#button-search{
+	
+	width: 100px;
+	font-size: 16px;
+}
+
+#btn-submit{
+	color: black;
+}
+
+body{
+	background-color: #D3D3D3;
+
+}
+
+h5{
+	text-align: center;
+}
