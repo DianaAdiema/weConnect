@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap\css\bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="user-register.css">
+
+	<title>weConnect.com</title>
+</head>
+<body>
+	<div> 
+
+		<nav class="navbar navbar-expand-lg fixed-top bg-light">
+			<a class="navbar-brand" href="index.html">weConect</a>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<!-- <li class="nav-item active">
+						<a class="nav-link" href="profile">Your Profile</a>
+					</li> -->  <!-- only active when user is logged in -->
+				</ul>
+
+			</div> <!-- collapse navbar-collapse -->
+
+			<a class="nav-link" href="businesses.html">Browse Businesses</a>  | &nbsp;
+			<a class="signin" href="user-login.html">Sign In</a> &nbsp; |
+			<a class="nav-link" href="register-bus.html">Register Business</a>
+
+			
+		</nav>
+	</div>
+		<div class="content">
+			<div class="container">
+				<div class="row">
+				<div class="col-md-6 col-md-offset-3">
+					<div class="panel panel-default">
+						<h4>Register Your Business</h4>
+						<div class="panel-body">
+							<form action="">
+								<div class="form-group">
+									<input type="Title" name="bus_title" class="form-control" placeholder="Enter Business Name...">
+									
+								</div> <!-- form group business title-->
+								<div class="form-group">
+				                    <textarea class="form-control" rows="5" id="comment">Describe your business...</textarea>
+				                            
+				                </div> <!-- description -->
+				                <div class="form-group">
+				                	<div class="dropdown show">
+				  						<a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">  <!-- not showing -->
+										    Categories
+										</a>
+										<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+										    <a class="dropdown-item" href="#">AGRICULTURE</a>
+										    <a class="dropdown-item" href="#">BAKERY</a>
+										    <a class="dropdown-item" href="#">TECHNOLOGY</a>
+										</div>
+									</div> <!-- categories -->
+				                    				                            
+				                </div> <!-- form group -->
+
+				                <div class="form-group">
+				                	<div class="dropdown show">
+				  						<a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">  <!-- not showing -->
+										    Location
+										</a>
+										<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+										    <a class="dropdown-item" href="#">AGRICULTURE</a>
+										    <a class="dropdown-item" href="#">BAKERY</a>
+										    <a class="dropdown-item" href="#">TECHNOLOGY</a>
+										</div>
+									</div> <!-- location -->
+				                    				                            
+				                </div> <!-- form group -->
+				                <input type="submit" name="login_btn" class="btn btn-warning btn-lg btn-lock" value="Register Business">
+								
+							</form>
+							
+							
+						</div> <!-- panel-body -->
+
+						
+					</div> <!-- panel -->
+					
+				</div> <!-- column -->
+				
+			
+			
+			
+				</div> <!-- reistration -->
+
+			</div>
+	    </div> <!-- content -->
+	</div>
+
+
+</body>
+</html>
