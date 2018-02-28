@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="bootstrap\css\bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="user-register.css">
+    <link rel="stylesheet" href="user-profile.css">
 
 	<title>weConnect</title>
 </head>
@@ -33,21 +33,45 @@
 	</div>
 
 	<div class="container">
-		<!-- iterate to view user registered businesses -->
-		<h2>My Registered Businesses</h2>
-
-		<div class="">
+		<div class="col-sm-8">
+			<!-- iterate to view user registered businesses -->
+			<h2>My Registered Businesses</h2>
 			<a href="business-profile.html"><h3>POULTRY FARMERS</h3></a>
 			<P>Predefined grid classes like .row and .col-xs-4 are available for quickly making grid layouts. Less mixins can also be used for more semantic layouts. Columns create gutters (gaps between column content) via padding . That padding is offset in rows for the first and last column via negative margin on .row s. The negative ...</P> <br>
 
 			NAIROBI <br>
 			AGRICULTURE<br><br>
+			<div class="row">
+				
+				<form class="form-inline my-2 my-lg-0">
+					<button id="button-update" class="btn btn-warning" type="submit" value="edit-business">Edit</button>
+				</form> <br>
+
+
+				<form class="form-inline my-2 my-lg-0">
+					<button id="button-update" class="btn btn-warning" type="submit" value="delete-business">Delete</button>
+				</form>
+			</div> <!-- row --> <br>
+
+
 
 			<a href="business-profile.html"><h3>IMAGE PHOTOGRAPHERS</h3> </a>
 			<P>Predefined grid classes like .row and .col-xs-4 are available for quickly making grid layouts. Less mixins can also be used for more semantic layouts. Columns create gutters (gaps between column content) via padding . That padding is offset in rows for the first and last column via negative margin on .row s. The negative ...</P> <br>
 
 			NAIROBI <br>
-			PHOTOGRAPHY<br>
+			PHOTOGRAPHY<br><br>
+			<div class="row">
+				
+				<form class="form-inline my-2 my-lg-0">
+					<a  href="register-bus.html" id="button-update" class="btn btn-warning" type="submit" value="edit-business">Edit</a>
+				</form> <br>
+
+
+				<form class="form-inline my-2 my-lg-0">
+					<button id="button-update" class="btn btn-warning" type="submit" value="delete-business">Delete</button>
+				</form>
+			</div> <!-- row --> <br>
+
 		</div>
 
 		
