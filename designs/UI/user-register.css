@@ -1,0 +1,33 @@
+body{
+	background-color: 	#D3D3D3;
+}
+
+.panel{
+	border: 0px;
+	background-color: 	#585858;
+	color: #ffff;
+	text-align: center;
+	padding-top: 50px;
+	margin: auto;
+}
+
+.container {
+    display:table;
+    width: 100%;
+    margin-top: -50px;
+    padding: 50px 0 0 0; /*set left/right padding according to needs*/
+    box-sizing: border-box;
+}
+
+.row {
+    height: 100%;
+    display: table-row;
+}
+
+.row .no-float {
+  display: table-cell;
+  float: none;
+}
+a:hover{
+	color: black;
+}

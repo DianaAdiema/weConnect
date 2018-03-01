@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap\css\bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="business-profile.css">
+
+	<title>weConnect</title>
+</head>
+<body>
+	
+	<div> 
+
+		<nav class="navbar navbar-expand-lg fixed-top bg-light">
+			<a class="navbar-brand" href="index.html">weConect</a>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="user-profile.html">View Profile</a>
+					</li>  <!-- only active when user is logged in -->
+				</ul> 
+							
+
+				<!-- <div class="row">
+
+					<div class="col-lg-6">
+
+						<div class="input-group" >
+					        <input type="text" class="form-control" placeholder="Search Businesses">
+					    </div>
+
+					</div>
+				</div>  --><!-- for automated search, might use it -->
+
+			</div> <!-- collapse navbar-collapse -->
+			<form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="text" placeholder="Find Businesses">
+				<button id="button-search" class="btn btn-outline-secondary" type="submit">Search</button>
+			</form>
+
+			<a class="nav-link" href="businesses.html">Browse Businesses</a>  | &nbsp;
+			<a class="signin" href="user-login.html">Sign In</a> &nbsp; |
+			<a class="nav-link" href="register-bus.html">Register Business</a>
+
+			
+		</nav>
+	</div> <!-- nav -->
+
+	<div class="container">
+		<div class="col-sm-8" >
+			<div id="content">
+				<a href="business-profile.html"><h3>POULTRY FARMERS</h3></a>
+					<P>Predefined grid classes like .row and .col-xs-4 are available for quickly making grid layouts. Less mixins can also be used for more semantic layouts. Columns create gutters (gaps between column content) via padding . That padding is offset in rows for the first and last column via negative margin on .row s. The negative ...</P> <br>
+
+					NAIROBI <br>
+					AGRICULTURE<br><br>
+
+					<hr>
+				<div id="comments">
+					<h5>We appreciate feedback. Kindly review our business</h5>
+					<form>
+					<div class="form-group">
+					  <label for="comment">Comment:</label>
+					  <textarea class="form-control" rows="5" id="comment"></textarea>
+					</div>
+					<button type="submit" class="btn btn-warning" id="btn-submit">Submit</button>
+					</form>
+
+					<div>
+
+						
+						
+					</div> <!-- display comments -->
+					
+				</div> <!-- comments -->
+
+			</div> <!-- content -->
+		</div> <!-- body column -->
+	</div> <!-- container -->
+
+
+</body>
+</html>
